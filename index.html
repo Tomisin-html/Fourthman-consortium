@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fourthman Consortium</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="icon" href="./others/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="name"><span>4th</span>Man</h1>
+                <ul id="menubar">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class='bx bx-x' onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, i'm Israel Aderemi</h1>
+                <h3>a.k.a <span>Fourthman</span></h3>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ABOUT SECTION -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="column1">
+                    <img src="./images/avatar.png" alt="my image">
+                </div>
+                <div class="column2">
+                    <h1>About Me</h1>
+                    <p> I am an innovative and creative thinker that prides in creating amazing solutons to design and media issues
+                        When it comes to interface designs, no one does it better than me. I am dedicated to an exceptional swerice delivery, well
+                        acquainted to modern design tools amd media equipments and softwares. I have a positive outlook to life, laced withj oassion and energy.                       
+                    </p>
+                    <div class="tab">
+                        <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills" >
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>                            
+                            <li><span>PHOTOGRAPHY</span><br>Capture Stunning Pictures</li>
+                            <li><span>ACTING</span><br>Fit into any given role on set</li>
+                            <li><span>DATA ANALYSIS</span><br>Analyse and Clean data reports</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Present</span><br>Photographer at N.C.C.I</li>
+                            <li><span>2023</span><br>Website Interface design for Onyx House</li>
+                            <li><span>2023</span><br>Website Interface design for Tomatin Bakery</li>
+                            <li><span>2023</span><br>Website and app Interface design for Grace' hair care</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>UI/UX Training at Harvesters International</li>
+                            <li><span>2023</span><br>Photography Training at M.A.V.A</li>
+                            <li><span>2023</span><br>Data Analysis Training at H.I.I.T International</li>
+                            <li><span>2019</span><br>B.Sc in Physics at Lagos State University</li>                            
+                        </ul>
+                    </div>
+                    <a href="./images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICES SECTION -->
+
+    <div id="services">
+        <div class="container">
+            <h1>My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class='bx bxs-crop' ></i>
+                    <h2>UI/UX Design</h2>
+                    <p> I design user friendly interfaces for your websites,
+                        apps, and web apps that would leave your customers wowed                        
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class='bx bx-line-chart'></i>
+                    <h2>Data Analysis</h2>
+                    <p>I utilize data tools like Power Bi to gather, clean, and analyze,
+                        data into usable bits by companies and individuals                        
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class='bx bx-camera' ></i>
+                    <h2>Photography</h2>
+                    <p>I excell at capturing beautiful moments, freezing memories for lifetime.
+                        Capture your events, occasions, and happenings and always keep it close to heart
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- PORTFOLIO SECTION -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1>My Recent Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-1.png" alt="">
+                    <div class="work-text">
+                        <h3>Fashion Website</h3>
+                        <p>The website help customers view clothing catalog and connect to the stylist to make orders.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-2.png" alt="">
+                    <div class="work-text">
+                        <h3>Bakery Website</h3>
+                        <p>The website help customers order Bread and pasteries, view recipies and make reservations</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-3.png" alt="">
+                    <div class="work-text">
+                        <h3>Stylist App</h3>
+                        <p>The app enables customers view hair styles and connect to the stylist to make orders and service booking.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://wa.me/qr/5ZNA3ICJT7JNG1" class="btn">Learn More</a>
+
+        </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-left">
+                    <h1>Contact Me</h1>
+                    <p><i class='bx bxs-paper-plane'></i>adetiga18@gmail.com</p>
+                    <p><i class='bx bxs-phone' ></i>+2347032900175</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/Four.Israel"><i class='bx bxl-facebook' ></i></a>
+                        <a href="https://www.linkedin.com/in/israel-aderemi-8b0656257"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="https://twitter.com/fourthman04"><i class='bx bxl-twitter' ></i></a>
+                        <a href="https://instagram.com/fourthman_?igshid=YmMyMTA2M2Y="><i class='bx bxl-instagram' ></i></a>
+                    </div>
+                </div>
+                <div class="col-right">
+                    <h2>Book a session</h2>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Book</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <div id="footer">
+        <p>Copyright © <span>FourthMan.</span></p>
+        <p>Made by <a href="#"><u>Umbra</u>™</a></p>
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
